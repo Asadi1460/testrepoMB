@@ -1,0 +1,65 @@
+Download and install git 
+
+git init
+# initializeing git
+
+
+git config --list
+# show git configuration
+
+
+git config --global user.name "Ali"
+git config --global user.email "your email"
+
+git status
+# show git status
+
+git add .
+
+git commit -m "your commit"
+
+git push
+# send changes on github
+
+
+git log
+# show log of git commands.
+
+git log --online
+# show log of git commands, in brief
+
+
+git show 
+
+git show <commit ID>
+# look at the colors (white, green, red)
+
+
+Now:
+Create a repository on github.com
+
+git clone <Repo-address>
+# clone repo on your system
+
+git pull
+# copy new changes from github to local rapository
+
+
+git restore --stage test.py
+# just on working directory
+
+
+git resotre --source <commit-ID> test.py
+# on local repository
+
+
+# more commands:
+git branch
+git branch <new_branch>
+git switch new_branch
+git merge new_branch
+
+
+
+
+
